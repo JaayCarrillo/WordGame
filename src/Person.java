@@ -1,33 +1,39 @@
 import java.util.Scanner;
+
 public class Person {
-    // instance variables 'firstName'
-    public String firstName;
-    // getter for 'firstName' //
-    public String getFirstName() {
-        return firstName;
-    }
-    // setter for 'firstName'//
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    // created two private instances of fName &&  lName //
+    private String fName;
+    private String lName;
+
+    // set my getters and setters
+    public String getfName() {
+        return fName;
     }
 
-    // instance variable of 'lastName'
-    public String lastName;
-    // getters and setters for person's last name //
-    public String getLastName() {
-        return lastName;
+    public void setfName(String fName) {
+        this.fName = fName;
     }
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+
+    public String getlName() {
+        return lName;
     }
-    // 1. overloaded constructor
-    // 1 .constructor accepts one 'String' as 'input'(persons firstName)
-    public Students (String firstName, String lastName){
-       this.firstName = firstName;
-       this.lastName = "";
+
+    public void setlName(String lName) {
+        this.lName = lName;
     }
-    public Students(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    // created two overloaded constructors
+    public Person (String fName) {
+        this.fName = fName; // takes fName as a string
+        this.lName = ""; // takes lName as blank
     }
+    // overloaded constructor
+    // passes firstName & lastName as Strings
+    public Person(String firstName, String lastName){
+        this.fName = firstName; // assigns fName to firstName
+        this.lName = lastName; // assigns lName to lastName
+    }
+
+
+
+
 }

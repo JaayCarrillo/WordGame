@@ -9,7 +9,7 @@ public class Numbers {
     public void setRandomNum(int randomNum) {
         this.randomNum = randomNum;
     }
-    public generateNumber() {
+    public void generateNumber() {
         /*int min = 0;
         int max = 100;
 
