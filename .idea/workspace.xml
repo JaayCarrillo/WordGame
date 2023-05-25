@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e34e55e-c2dc-48d9-9cbf-bf42edb16d6b" name="Changes" comment="Person.java class updated and completed Section 3, a - d(ii)">
-      <change beforePath="$PROJECT_DIR$/src/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Numbers.java" afterDir="false" />
+    <list default="true" id="0e34e55e-c2dc-48d9-9cbf-bf42edb16d6b" name="Changes" comment="Numbers.java class update : 4. section a -c(i-iii)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePlay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <recent name="C:\Users\JCarrillo8\Documents\GitHub\WordGame\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GamePlay">
     <configuration name="GamePlay" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GamePlay" />
       <module name="WordGame" />
@@ -88,7 +89,7 @@
       <updated>1684899781897</updated>
       <workItem from="1684899784671" duration="5503000" />
       <workItem from="1684914175852" duration="2426000" />
-      <workItem from="1684981476175" duration="7482000" />
+      <workItem from="1684981476175" duration="9632000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 2 update">
       <created>1684975073098</created>
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684999860629</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Numbers.java class update : 4. section a -c(i-iii)">
+      <created>1685000458834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685000458834</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 2 update" />
     <MESSAGE value="Person.java class updated and completed Section 3, a - d(ii)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Person.java class updated and completed Section 3, a - d(ii)" />
+    <MESSAGE value="Numbers.java class update : 4. section a -c(i-iii)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Numbers.java class update : 4. section a -c(i-iii)" />
   </component>
 </project>
