@@ -1,19 +1,48 @@
 import java.util.Scanner;
 
 public class GamePlay {
-
+    private static Person person;
     public static void main(String[] args) {
-        System.out.println("Enter your name: ");
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
-        System.out.println(input);
-        System.out.println("Would you like to enter a last name? ");
+    GamePlay game = new GamePlay();
+    game.forName();
+    game.forLastName();
+    game.createPersonInstance();
 
-        if(input.equals("yes")){
-            System.out.println("enter last name: ");
+    Numbers numbers = new Numbers();
+    numbers.generateNumber();
+
+    Scanner scanner = new Scanner(System.in);
+
+    boolean numGuess = false;
+
+    while(!numGuess){
+        System.out.println(person.getFirstName() + ", enter your guess: ");
+        int guess = scanner.nextInt();
+        numGuess = numbers.compareNumber(guess);
+    }
+    }
+
+    private void forName() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your first name: ");
+        String firstName = scanner.nextLine();
+        person = new Person(firstName);
+    }
+
+    private void forLastName() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Do you want to enter a last name? y/n");
+        String option = scanner.nextLine();
+
+        if(option.equals("y")) {
+            System.out.println("Enter your last name: ");
             String lastName = scanner.nextLine();
-            Person person = new Person(input, lastName);
-            System.out.println(person);
+            person.setLastName(lastName);
         }
     }
+
+    private void createPersonInstance() {
+
+    }
+
 }

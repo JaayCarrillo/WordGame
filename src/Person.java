@@ -1,39 +1,37 @@
 import java.util.Scanner;
 
 public class Person {
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
     // created two private instances of fName &&  lName //
-    private String fName;
-    private String lName;
+    private String firstName;
+    private String lastName;
 
-    // set my getters and setters
-    public String getfName() {
-        return fName;
-    }
 
-    public void setfName(String fName) {
-        this.fName = fName;
-    }
-
-    public String getlName() {
-        return lName;
-    }
-
-    public void setlName(String lName) {
-        this.lName = lName;
-    }
     // created two overloaded constructors
-    public Person (String fName) {
-        this.fName = fName; // takes fName as a string
-        this.lName = ""; // takes lName as blank
+    public Person (String firstName) {
+        this.firstName = firstName; // takes fName as a string
+        this.lastName = ""; // takes lName as blank
     }
     // overloaded constructor
     // passes firstName & lastName as Strings
     public Person(String firstName, String lastName){
-        this.fName = firstName; // assigns fName to firstName
-        this.lName = lastName; // assigns lName to lastName
+        this.firstName = firstName; // assigns fName to firstName
+        this.lastName = lastName; // assigns lName to lastName
     }
-
-
-
 
 }
