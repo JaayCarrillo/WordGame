@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class Person {
+    public Person() {
+
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -33,5 +37,4 @@ public class Person {
         this.firstName = firstName; // assigns fName to firstName
         this.lastName = lastName; // assigns lName to lastName
     }
-
 }

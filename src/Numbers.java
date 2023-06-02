@@ -1,6 +1,6 @@
 import java.util.Random;
 public class Numbers {
-    private int randomNum;
+    private static int randomNum;
 
     public int getRandomNum() {
         return randomNum;
@@ -9,11 +9,9 @@ public class Numbers {
     public void setRandomNum(int randomNum) {
         this.randomNum = randomNum;
     }
-    public void generateNumber() {
+    public int generateNumber(Random random) {
+        return random.nextInt(100) + 1;
 
-        Random random = new Random();
-        int randomNum = random.nextInt(100);
-        System.out.println(randomNum);
     }
 
     public boolean compareNumber(int guess){
