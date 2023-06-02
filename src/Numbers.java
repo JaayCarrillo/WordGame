@@ -1,6 +1,6 @@
 import java.util.Random;
 public class Numbers {
-    private int randomNum;
+    private static int randomNum;
 
     public int getRandomNum() {
         return randomNum;
