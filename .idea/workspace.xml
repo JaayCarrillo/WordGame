@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e34e55e-c2dc-48d9-9cbf-bf42edb16d6b" name="Changes" comment="Progress report on the Lesson 3: GamePlay assignment. Still working on final output but have made major progress to the game.">
-      <change afterPath="$PROJECT_DIR$/src/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Players.java" afterDir="false" />
+    <list default="true" id="0e34e55e-c2dc-48d9-9cbf-bf42edb16d6b" name="Changes" comment="Testing a new way to accomplish 'Lesson 3: Assignment' under a new branch called &quot;Testing Lesson 3&quot;. The point is to refactor some of the code from Lesson2 and clean up code so that it is more ellible and I can find solutions to my problems easier -- pushing a commit to show progress.">
+      <change afterPath="$PROJECT_DIR$/src/Turn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WordGame/GamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordGame/GamePlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WordGame/Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordGame/Numbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WordGame/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordGame/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Host.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Host.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Players.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Players.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +104,7 @@
       <workItem from="1684899784671" duration="5503000" />
       <workItem from="1684914175852" duration="2426000" />
       <workItem from="1684981476175" duration="17021000" />
-      <workItem from="1685408205256" duration="24594000" />
+      <workItem from="1685408205256" duration="34499000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 2 update">
       <created>1684975073098</created>
@@ -158,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685664156580</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Testing a new way to accomplish 'Lesson 3: Assignment' under a new branch called &quot;Testing Lesson 3&quot;. The point is to refactor some of the code from Lesson2 and clean up code so that it is more ellible and I can find solutions to my problems easier -- pushing a commit to show progress.">
+      <created>1685691663520</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685691663520</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +194,7 @@
     <MESSAGE value="Game Play Update : Finished Game" />
     <MESSAGE value="Numbers.java finished commit push" />
     <MESSAGE value="Progress report on the Lesson 3: GamePlay assignment. Still working on final output but have made major progress to the game." />
-    <option name="LAST_COMMIT_MESSAGE" value="Progress report on the Lesson 3: GamePlay assignment. Still working on final output but have made major progress to the game." />
+    <MESSAGE value="Testing a new way to accomplish 'Lesson 3: Assignment' under a new branch called &quot;Testing Lesson 3&quot;. The point is to refactor some of the code from Lesson2 and clean up code so that it is more ellible and I can find solutions to my problems easier -- pushing a commit to show progress." />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing a new way to accomplish 'Lesson 3: Assignment' under a new branch called &quot;Testing Lesson 3&quot;. The point is to refactor some of the code from Lesson2 and clean up code so that it is more ellible and I can find solutions to my problems easier -- pushing a commit to show progress." />
   </component>
 </project>

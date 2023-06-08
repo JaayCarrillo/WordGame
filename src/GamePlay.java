@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class GamePlay {
@@ -9,12 +10,8 @@ public class GamePlay {
     game.createPersonInstance();
 
     Numbers numbers = new Numbers();
-    numbers.generateNumber();
-
     Scanner scanner = new Scanner(System.in);
-
     boolean numGuess = false;
-
     while(!numGuess){
         System.out.println(person.getFirstName() + ", enter your guess: ");
         int guess = scanner.nextInt();

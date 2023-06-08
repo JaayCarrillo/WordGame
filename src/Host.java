@@ -1,6 +1,7 @@
 import java.util.Random;
 
 public class Host extends Person{
+    private int randomNumber;
     /*
     Below is our host constructor that takes in Parent Class 'Person' firstName && lastName as paramaters
      */
@@ -11,14 +12,15 @@ public class Host extends Person{
 
     /*
     1. Create a public method called randomizeNum()
-    2. this method should instantiates the 'Numbers.java' class
+    2. this method should the 'Numbers.java' class
     3. & generates a random number
      */
 
     public void randomizeNum() {
-        Numbers numbers = new Numbers(); // instantiated the numbers class
-        Random random = new Random(); // instantiates the random
-
-        int randomNumber = random.nextInt(100); // we set our random number value to '100'
+       Numbers number = new Numbers();
+       Random random = new Random();
+       int randomNumber;
+       randomNumber = number.generateNumber(random);
     }
+
 }
