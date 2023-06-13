@@ -3,21 +3,12 @@ public class Players extends Person{
 
     public Players(String firstName) {
         super(firstName);
-    }
-
-    public Players(String firstName, String lastName, int money) {
-        super(firstName, lastName);
-        this.money = 1000;
-    }
-
-    public Players(String firstName, int money) {
-        super(firstName);
         this.money = 1000;
     }
 
 
-    // we created a players constructor that takes 'firstName' && 'lastName'
-    // as parameters and used a super() method to extend the 'Person' class
+
+
 
 
 
@@ -38,7 +29,8 @@ public class Players extends Person{
 
     @Override
     public String toString() {
-        return getFirstName() + " " + getLastName()+ ", Money: $" + money;
+
+        return getFirstName() + " " + getLastName()+ " Money: $" + ""+ money;
     }
 
 

@@ -2,26 +2,25 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Turn {
+    private int correctChoice = 200;
+    private int incorrectChoice = 100;
 
-    /*
-    this class is intended to handle the player's turn
-    Steps to accomplish
+    public boolean takeTurn(Players players, Host host) { // accepts parameters
+    Scanner scanner = new Scanner(System.in);
+        System.out.println(" " + host.getFirstName() + ":" + players.getFirstName() + ", Enter your guess!");
 
-    1. Create a public method in 'Turn.java' called takeTurn()
-     */
+        int guess = scanner.nextInt();
+        boolean correctGuess = Numbers.compareNumber(guess);
 
-
-
-    public void takeTurn(Players players, Host host) { // accepts parameters
-        System.out.println("It's" + " "+host.getFirstName());
-        System.out.println("Enter your guess! 0-100" + " "+players.getFirstName());
-    // simulate host by name
-        Numbers number = new Numbers();
-        number.compareNumber(Numbers.getRandomNum());
-        System.out.println(number.generateNumber(new Random()));
-
-
-
+        if(correctGuess) {
+            players.setMoney(players.getMoney() + correctChoice);
+            System.out.println("Congratulations" + "" + players.getFirstName() + "! You won $" + " "+ correctChoice);
+        } else {
+            players.setMoney(players.getMoney() - incorrectChoice);
+            System.out.println("Im sorry" + " "+ players.getFirstName());
+        }
+        System.out.println(players.toString());
+        return correctGuess;
     }
 
 
