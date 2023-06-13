@@ -24,7 +24,10 @@ public class GamePlay {
                 guessedCorrectly = turn.takeTurn(player, host);
             }
             System.out.println(player.toString());
-            System.out.println(continuePlay);
+            System.out.println("Do you want to play again? (y/n) ");
+            String answer = scanner.nextLine();
+            continuePlay = answer.equalsIgnoreCase("y");
+            break;
         }
 
     }
