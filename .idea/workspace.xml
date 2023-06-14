@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e34e55e-c2dc-48d9-9cbf-bf42edb16d6b" name="Changes" comment="Updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordGame/GamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordGame/GamePlay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordGame/Turn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordGame/Turn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Turn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Turn.java" afterDir="false" />
+    <list default="true" id="0e34e55e-c2dc-48d9-9cbf-bf42edb16d6b" name="Changes" comment="Finished and Updated 11:59pm 6/12/23">
+      <change afterPath="$PROJECT_DIR$/Output.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,7 @@
       <workItem from="1684914175852" duration="2426000" />
       <workItem from="1684981476175" duration="17021000" />
       <workItem from="1685408205256" duration="35557000" />
-      <workItem from="1686625044377" duration="7734000" />
+      <workItem from="1686625044377" duration="8495000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 2 update">
       <created>1684975073098</created>
@@ -187,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686637840573</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished and Updated 11:59pm 6/12/23">
+      <created>1686639599071</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686639599071</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +221,7 @@
     <MESSAGE value="Final : Have a working output but do not have Turn.java completed yet that increases the money amount once the player has guessed incorrectly." />
     <MESSAGE value="Update &amp; Improvements on Lesson3" />
     <MESSAGE value="Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+    <MESSAGE value="Finished and Updated 11:59pm 6/12/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished and Updated 11:59pm 6/12/23" />
   </component>
 </project>
